@@ -1,0 +1,21 @@
+.casa{
+	width: 200px;
+	height: 200px;
+	border: solid 1px;
+	float: left;
+}
+.linha{
+}
+
+#jogo{
+	width: 606px;
+	margin: auto;
+
+}
+.placar{
+	margin: 200;
+	height: 100;
+	border: solid 1px;
+	float: right;
+}
+

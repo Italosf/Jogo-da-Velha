@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jogo da Velha</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/velha.css">
+	
+</head>
+<body onkeypress="jogarTecla(event)">
+
+<div id = "jogo">
+	
+	<div class="linha">
+		
+		<div class="casa" id="casa1" onclick="jogar(casa1)"></div>
+		<div class="casa" id="casa2" onclick="jogar(casa2)"></div>
+		<div class="casa" id="casa3" onclick="jogar(casa3)"></div>
+
+	</div>
+
+	<div class="linha">
+		
+		<div class="casa" id="casa4" onclick="jogar(casa4)"></div>
+		<div class="casa" id="casa5" onclick="jogar(casa5)"></div>
+		<div class="casa" id="casa6" onclick="jogar(casa6)"></div>
+
+	</div>
+
+	<div class="linha">
+		
+		<div class="casa" id="casa7" onclick="jogar(casa7)"></div>
+		<div class="casa" id="casa8" onclick="jogar(casa8)"></div>
+		<div class="casa" id="casa9" onclick="jogar(casa9)"></div>
+
+	</div>
+
+
+</div>
+		
+		<div id="placar">
+		<h1>Placar do jogo:</h1>
+		<p>
+			<br> Jogador X: <span id="x"> 0 </span>
+		</p>
+		
+		<p>
+			<br> Jogador O: <span id="O"> 0 </span>
+		</p>
+
+		<p>
+			<br> Empate: <span id="empate"> 0 </span>
+		</p>
+		</div>
+
+<script type="text/javascript" src = "js/jogovelha.js"></script>
+</body>
+</html>
